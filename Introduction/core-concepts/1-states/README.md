@@ -14,3 +14,5 @@ In Terraform, you're able to build, modify, and destroy infrastructure at an inc
 If you're curious about how Terraform stores this data, just take a look after your first `apply`, your state is human readable and **stores everything in plain text**.
 
 To keep these files safe, and even let multiple people work on the same project, its possible to store the state remotely. Take a look at `remote-state` to see how to do this in S3.
+
+To learn a lot more about Terraform states: https://www.terraform.io/docs/language/state/index.html
