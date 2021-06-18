@@ -6,5 +6,7 @@ resource "aws_s3_bucket" "local_example_bucket" {
     Name            = "pleasepleaseletmehavethisfuckingbucketname"
     IsAFuckinBucket = true
     Env             = "terraform_examples"
+    Terraform       = "true"
+
   }
 }

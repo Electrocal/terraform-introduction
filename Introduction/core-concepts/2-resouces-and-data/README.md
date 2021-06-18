@@ -1,6 +1,8 @@
 # Resource Blocks and Data Sources
 
-In Terraform, there are two main ways of working with objects: `resource` to create a new object, and `data` to retrieve information about existing objects. 
+In Terraform, there are two main ways of working with objects: `resource` to create a new object, and `data` sources to retrieve information about existing objects.
+
+To find the full list of all of these and how to use them, just go to: https://registry.terraform.io/browse/providers
 
 ## Using Resources
 
