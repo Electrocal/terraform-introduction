@@ -6,7 +6,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket  = "cd-terraform-states"
+    bucket  = "pleasepleaseletmehavethisfuckingbucketname"
     key     = "terraform/demos/"
     region  = "eu-west-1"
     encrypt = true
