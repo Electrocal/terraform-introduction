@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "remote_example_bucket" {
-  bucket = ""
+  bucket = "fuckpissshitonmyface"
   acl    = "private"
 
   tags = {

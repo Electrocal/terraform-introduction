@@ -6,7 +6,9 @@ terraform {
     }
   }
   backend "s3" {
-    bucket  = ""
+    bucket  = "cd-terraform-states"
+    key     = "terraform/demos/"
+    region  = "eu-west-1"
     encrypt = true
   }
 }
